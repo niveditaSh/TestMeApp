@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class searchobj {
+	
+
 	WebDriver driver;
 	public searchobj(WebDriver driver) {
 		PageFactory.initElements(driver,this);
@@ -26,8 +28,14 @@ public class searchobj {
 	@FindBy(xpath="//input[@id='myInput']")
 	public WebElement search111;
 
-	@FindBy(xpath="//form//input[@name='val']")
-	public WebElement find;
+//	@FindBy(xpath="//form//input[@name='val']")
+//	public WebElement find;
+//	
+//	@FindBy(xpath="//body/section/div[@class='container']/div[@class='row']/div[@class='col-sm-9']/div[1]")
+//	public static WebElement image;
+//
+//	@FindBy(xpath="//a[contains(text(),'Cart')]")
+//	public static WebElement addtocart;
 
 //	@FindBy(xpath="//div[@class='row']//div[1]//div[1]//div[1]//div[2]//center[1]//a[1]")
 //	public WebElement addtocart;

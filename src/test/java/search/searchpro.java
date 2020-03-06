@@ -1,7 +1,8 @@
 package search;
 
-import java.util.concurrent.TimeUnit;
 
+import java.util.NoSuchElementException;
+import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import io.cucumber.java.en.And;
@@ -44,12 +45,21 @@ public class searchpro {
 		new searchobj(driver).search111.sendKeys(search111);
 	}
 
-	@Then("User clicks on search button12")
-	public void find() {
-		new searchobj(driver).find.click();
-
+//	@Then("User clicks on search button12")
+//	public void find() {
+//		new searchobj(driver).find.click();
+//		if(searchobj.image.isDisplayed())
+//		{	 
+//		searchobj.addtocart.click();
+//		}
+//		else
+//		{
+//		 
+//		throw new NoSuchElementException("can't find"); 
+//		}
 	}
-}
+
+
 
 //	@And("User adds the product to cart")
 //	public void addtocart() {

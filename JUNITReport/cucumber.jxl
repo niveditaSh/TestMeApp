@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="204.74">
+<testcase classname="Registered user Login" name="Registered user login" time="204.444">
+<skipped><![CDATA[Given navigate to signin page1..............................................passed
+When user clicks on signin11................................................passed
+And User enters Username1 "Lalitha".........................................passed
+And User enters Password1 "password123".....................................passed
+And User clicks on Login1...................................................passed
+When User clicks on search product textbox1 "bag"...........................passed
+When User clicks on search button12.........................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

@@ -1,0 +1,128 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-03-06T10:21:29.114Z",
+        "line": 16,
+        "name": "Registered user login",
+        "description": "",
+        "id": "registered-user-login;registered-user-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 88330000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "navigate to signin page1",
+            "match": {
+              "location": "search.searchpro.navigate_to_signin_page1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81322000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on signin11",
+            "match": {
+              "location": "search.searchpro.signin1()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters Username1 \"Lalitha\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Lalitha\"",
+                  "offset": 22
+                }
+              ],
+              "location": "search.searchpro.usrnm123(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters Password1 \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password123\"",
+                  "offset": 22
+                }
+              ],
+              "location": "search.searchpro.pwd123(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34434000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Login1",
+            "match": {
+              "location": "search.searchpro.loginn1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User clicks on search product textbox1 \"bag\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bag\"",
+                  "offset": 39
+                }
+              ],
+              "location": "search.searchpro.search111(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User clicks on search button12",
+            "match": {},
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login11"
+          }
+        ]
+      }
+    ],
+    "name": "Registered user Login",
+    "description": "",
+    "id": "registered-user-login",
+    "keyword": "Feature",
+    "uri": "file:Feature/searchh.feature",
+    "tags": []
+  }
+]
